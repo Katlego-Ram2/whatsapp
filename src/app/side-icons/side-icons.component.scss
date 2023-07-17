@@ -9,7 +9,31 @@
     align-items: center;
     gap: 8px;
   }
-  .ico{
+ 
+  .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .notification-item {
     display: flex;
     flex-direction: row;
+    align-items: center;
+   
   }
+  .icon-container {
+    margin-right: 18%;
+    display: flex;
+  
+  }
+  
+  .text-container {
+    flex-grow: 1;
+  }
+  hr{
+    width: 80%;
+    margin-left: 20%;
+   
+  }
+  

@@ -8,14 +8,14 @@ import { Component } from '@angular/core';
 export class SideIconsComponent {
   // Inside your component class
 notifications = [
-  { iconClass: 'fa-solid fa-bell fa-xl', text: 'Notification 1' },
-  { iconClass: 'fa-solid fa-shield-halved fa-xl', text: 'Notification 2' },
-  { iconClass: 'fa-solid fa-certificate fa-xl', text: 'Notification 3' },
-  { iconClass: 'fa-regular fa-image fa-xl', text: 'Notification 4' },
-  { iconClass: 'fa-solid fa-ban fa-rotate-90 fa-xl', text: 'Notification 5' },
-  { iconClass: 'fa-solid fa-desktop fa-xl', text: 'Notification 6' },
-  { iconClass: 'fa-solid fa-desktop fa-xl', text: 'Notification 7' },
-  { iconClass: 'fa-sharp fa-solid fa-circle-question fa-xl', text: 'Notification 8' }
+  { iconClass: 'fa-solid fa-bell fa-xl', text: 'Notification' },
+  { iconClass: 'fa-solid fa-shield-halved fa-xl', text: 'Security' },
+  { iconClass: 'fa-solid fa-certificate fa-xl', text: 'Theme' },
+  { iconClass: 'fa-regular fa-image fa-xl', text: 'Chat Wallpaper' },
+  { iconClass: 'fa-solid fa-ban fa-rotate-90 fa-xl', text: 'Blocked' },
+  { iconClass: 'fa-solid fa-desktop fa-xl', text: 'Desktop Settings' },
+  { iconClass: 'fa-solid fa-desktop fa-xl', text: 'Keyboard Shortcuts' },
+  { iconClass: 'fa-sharp fa-solid fa-circle-question fa-xl', text: 'Help' }
 ];
 
 }

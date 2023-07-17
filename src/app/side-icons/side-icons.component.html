@@ -1,10 +1,17 @@
 <div class="cover">
     <ng-container *ngFor="let notification of notifications">
-      <i [ngClass]="notification.iconClass"></i>
-      <p>{{ notification.text }}</p>
+      <div class="notification-item">
+        <div class="icon-container">
+          <i [ngClass]="notification.iconClass"></i>
+        </div>
+        <div class="text-container">
+          <p>{{ notification.text }}</p>
+        </div>
+      </div>
       <hr>
     </ng-container>
   </div>
+  
   
   
   

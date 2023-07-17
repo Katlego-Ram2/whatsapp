@@ -1,6 +1,34 @@
 .cover{
   width: 70vw;
-    height: 10%;
-  
+    height: 8%;
+    display: flex;
+  flex-direction: row;
     background-color:#EEEEEE;
+}
+img{
+  border-radius: 18px;
+}
+.leftside{
+  display: flex;
+  flex-direction: row;
+margin-left: 2%;
+  align-items: center;
+ 
+  height: 100%;
+  width: 50%;
+  gap: 3%;
+}
+.rightside{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  margin-left: -2%;
+  gap: 5%;
+
+}
+p{
+  margin-top: 9px;
 }

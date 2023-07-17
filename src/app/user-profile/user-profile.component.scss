@@ -1,6 +1,23 @@
 .cover{
   
     height: 100%;
-  
+    display: flex;
+    flex-direction: row;
     background-color: #FFFFFF;
+    gap: 4%;
+    padding-top: 2%;
+    padding-left: 5%;
 }
+#smallp{
+    font-size:smaller;
+    margin-top: -6%;
+}
+img{
+    border-radius: 45px;
+  
+    display: flex;
+    flex-direction: row;
+  }
+ .right{
+    padding-top: 5%;
+  }
