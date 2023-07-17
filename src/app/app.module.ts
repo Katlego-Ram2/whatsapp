@@ -10,6 +10,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { CommentsComponent } from './comments/comments.component';
 import { LetftToolbarComponent } from './letft-toolbar/letft-toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LeftPartComponent } from './left-part/left-part.component';
+import { RightPartComponent } from './right-part/right-part.component';
+import { SideIconsComponent } from './side-icons/side-icons.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     DisplayComponent,
     ProfileComponent,
     CommentsComponent,
-    LetftToolbarComponent
+    LetftToolbarComponent,
+    LeftPartComponent,
+    RightPartComponent,
+    SideIconsComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
