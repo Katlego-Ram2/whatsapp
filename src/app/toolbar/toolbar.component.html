@@ -3,11 +3,19 @@
     <img src="../../assets/4403f5bde9b9dd1799eda1756139557d.png" alt="image" width="35px" height="35px"><p>Zack Hall</p>
   </div>
   <div class="rightside">
-   
-  <i class="fa-solid fa-video fa-lg"></i>
-  <i class="fa-solid fa-phone fa-lg"></i>
-<p style="font-size: x-large;">|</p>
-  <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  <i class="fa-solid fa-caret-down fa-lg"></i>
-</div>
+    <!-- Icons before the separator -->
+    <ng-container *ngFor="let icon of icons">
+      <ng-container *ngIf="icon.name !== 'Separator'">
+        <i class="fa-solid {{icon.class}}"></i>
+      </ng-container>
+      <ng-container *ngIf="icon.name === 'Phone'">
+        <p style="font-size: x-large;">|</p>
+      </ng-container>
+    </ng-container>
+  
+ 
+  </div>
+  
+  
+  
 </div>

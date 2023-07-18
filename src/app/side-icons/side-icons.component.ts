@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./side-icons.component.scss']
 })
 export class SideIconsComponent {
-  // Inside your component class
+ 
 notifications = [
   { iconClass: 'fa-solid fa-bell fa-xl', text: 'Notification' },
   { iconClass: 'fa-solid fa-shield-halved fa-xl', text: 'Security' },
@@ -14,7 +14,7 @@ notifications = [
   { iconClass: 'fa-regular fa-image fa-xl', text: 'Chat Wallpaper' },
   { iconClass: 'fa-solid fa-ban fa-rotate-90 fa-xl', text: 'Blocked' },
   { iconClass: 'fa-solid fa-desktop fa-xl', text: 'Desktop Settings' },
-  { iconClass: 'fa-solid fa-desktop fa-xl', text: 'Keyboard Shortcuts' },
+  { iconClass: 'fa-solid fa-keyboard fa-xl', text: 'Keyboard Shortcuts' },
   { iconClass: 'fa-sharp fa-solid fa-circle-question fa-xl', text: 'Help' }
 ];
 

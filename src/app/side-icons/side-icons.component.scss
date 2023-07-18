@@ -32,8 +32,16 @@
   
   
   }
+  hr {
+    border: none;
+    border-top: 1px solid #eceaea;
+  }
+  
+  
+  
   i{
     margin-top: -5px;
+    color: #7c7c7c;
   }
   .text-container {
     flex-grow: 1;
