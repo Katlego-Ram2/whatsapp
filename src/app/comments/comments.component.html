@@ -1,10 +1,12 @@
 <div class="cover">
-<div class="contents">
-   
-    <i class="fa-solid fa-face-smile fa-xl"></i>
-    <i class="fa-solid fa-paperclip fa-xl"></i>
-    <input type="text" placeholder="     Type a message">  
-    <i class="fa-solid fa-microphone fa-xl"></i>
-
-</div>
+    <div class="contents">
+        <ng-container *ngFor="let icon of icons">
+          <ng-container *ngIf="icon.name !== 'Input'">
+            <i class="fa-solid {{icon.class}}"></i>
+          </ng-container>
+          <input type="text" placeholder="Type a message" *ngIf="icon.name === 'Input'">
+        </ng-container>
+      </div>
+      
+      
 </div>
