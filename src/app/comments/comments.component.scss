@@ -4,7 +4,7 @@
       display: flex;
       flex-direction: row;
       background-color: #F1F1F1;
-      gap: 3%;
+      gap: 1%;
      
      
   }
@@ -13,17 +13,22 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    gap: 3%;
+    gap: 2%;
     align-items: center;
+    margin-left: 2%;
    
    
 
   }
   input{
-    width: 90%;
+    width: 86%;
     height: 50%;
     border-radius: 13px;
     background-color: #fff;
     outline: none;
     border: none;
+  }
+  i{
+    
+  color: #7c7c7c;
   }
